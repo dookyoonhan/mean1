@@ -20,7 +20,7 @@ var db = mongoose.connect(config.db);
 var app = require('./server/config/system/bootstrap')(passport, db);
 
 // Start the app by listening on <port>, optional hostname
-app.listen(config.port,'107.170.252.97');
+app.listen(config.port,'107.170.252.197');
 console.log('Mean app started on port ' + config.port + ' (' + process.env.NODE_ENV + ')');
 
 // Initializing logger
